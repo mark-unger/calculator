@@ -1,0 +1,133 @@
+
+
+.rectangle #screen {
+    overflow-x: auto;
+    white-space:nowrap;
+    /* scroll bar still transparent?*/
+    background-color: black;
+   
+    
+}
+
+
+#screen {
+    width: 420px;
+    height: 100px;
+    margin: 16px 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: right;
+    padding-right:10px;
+    padding-left: 10px
+    
+    
+   
+    
+    
+    
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #6699cc;
+   
+}
+
+.rectangle {
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    max-width: fit-content;
+    height: 655px;
+    width: 661px;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+#operations {
+    display: inherit;
+    flex-direction: column;
+}
+
+#clear,
+#delete {
+    width: 152px;
+}
+.numberButton,
+.operationButton {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 3px;
+    
+    
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+}
+#numbers {
+max-width: 330px;
+
+}
+
+#numbers {
+    padding-left: 16px;
+    padding-bottom: 16px;
+   
+}
+
+#operations {
+    padding-right: 16px;
+    padding-bottom: 16px;
+   
+}
+
+
+#header,
+#footer{
+    background: rgb(15, 82, 186);
+    height:100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
+}
+.operationButton {
+    color: lightseagreen;
+}
+.numberButton {
+    color: lightcoral;
+}
+#delete {
+    color: red;
+}
+
+#clear {
+    color: rgb(129, 81, 241);
+}
+
+.rectangle {
+    background-color: rgba(11, 16, 44, 0.979);
+}
+
+
+
+.middle button {
+    background-color:rgba(211, 211, 211, 0.253)
+}
